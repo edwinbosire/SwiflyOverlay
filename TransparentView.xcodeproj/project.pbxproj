@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35EC59A1D14C53700D8702F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35EC5991D14C53700D8702F /* Menu.swift */; };
+		C35EC59B1D14C53700D8702F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35EC5991D14C53700D8702F /* Menu.swift */; };
 		C3628C5F1D13537D004262B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C5E1D13537D004262B1 /* AppDelegate.swift */; };
 		C3628C611D13537D004262B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C601D13537D004262B1 /* ViewController.swift */; };
 		C3628C641D13537D004262B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3628C621D13537D004262B1 /* Main.storyboard */; };
@@ -14,6 +16,12 @@
 		C3628C691D13537D004262B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3628C671D13537D004262B1 /* LaunchScreen.storyboard */; };
 		C3628C741D13537D004262B1 /* TransparentViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C731D13537D004262B1 /* TransparentViewTests.swift */; };
 		C3628C7F1D13537D004262B1 /* TransparentViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C7E1D13537D004262B1 /* TransparentViewUITests.swift */; };
+		C3628C931D1353EA004262B1 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C921D1353EA004262B1 /* OverlayView.swift */; };
+		C3628C941D1353EA004262B1 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C921D1353EA004262B1 /* OverlayView.swift */; };
+		C3628C9C1D136BA2004262B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C9A1D136BA2004262B1 /* MenuViewController.swift */; };
+		C3628C9D1D136BA2004262B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628C9A1D136BA2004262B1 /* MenuViewController.swift */; };
+		C3628CA11D13906C004262B1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628CA01D13906C004262B1 /* MenuTableViewCell.swift */; };
+		C3628CA21D13906C004262B1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3628CA01D13906C004262B1 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C35EC5991D14C53700D8702F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		C3628C5B1D13537D004262B1 /* TransparentView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3628C5E1D13537D004262B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3628C601D13537D004262B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		C3628C7A1D13537D004262B1 /* TransparentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3628C7E1D13537D004262B1 /* TransparentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentViewUITests.swift; sourceTree = "<group>"; };
 		C3628C801D13537D004262B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3628C921D1353EA004262B1 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = ../Overlay/OverlayView.swift; sourceTree = "<group>"; };
+		C3628C9A1D136BA2004262B1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C3628CA01D13906C004262B1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				C3628C5E1D13537D004262B1 /* AppDelegate.swift */,
+				C3628C951D1353F2004262B1 /* Overlay */,
 				C3628C601D13537D004262B1 /* ViewController.swift */,
+				C3628C961D136B3C004262B1 /* Menu */,
 				C3628C621D13537D004262B1 /* Main.storyboard */,
 				C3628C651D13537D004262B1 /* Assets.xcassets */,
 				C3628C671D13537D004262B1 /* LaunchScreen.storyboard */,
@@ -123,6 +137,24 @@
 				C3628C801D13537D004262B1 /* Info.plist */,
 			);
 			path = TransparentViewUITests;
+			sourceTree = "<group>";
+		};
+		C3628C951D1353F2004262B1 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				C3628C921D1353EA004262B1 /* OverlayView.swift */,
+			);
+			name = Overlay;
+			sourceTree = "<group>";
+		};
+		C3628C961D136B3C004262B1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C3628C9A1D136BA2004262B1 /* MenuViewController.swift */,
+				C3628CA01D13906C004262B1 /* MenuTableViewCell.swift */,
+				C35EC5991D14C53700D8702F /* Menu.swift */,
+			);
+			name = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35EC59A1D14C53700D8702F /* Menu.swift in Sources */,
+				C3628C931D1353EA004262B1 /* OverlayView.swift in Sources */,
+				C3628C9C1D136BA2004262B1 /* MenuViewController.swift in Sources */,
 				C3628C611D13537D004262B1 /* ViewController.swift in Sources */,
 				C3628C5F1D13537D004262B1 /* AppDelegate.swift in Sources */,
+				C3628CA11D13906C004262B1 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3628C941D1353EA004262B1 /* OverlayView.swift in Sources */,
 				C3628C741D13537D004262B1 /* TransparentViewTests.swift in Sources */,
+				C3628CA21D13906C004262B1 /* MenuTableViewCell.swift in Sources */,
+				C3628C9D1D136BA2004262B1 /* MenuViewController.swift in Sources */,
+				C35EC59B1D14C53700D8702F /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +524,7 @@
 				C3628C851D13537D004262B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3628C861D13537D004262B1 /* Build configuration list for PBXNativeTarget "TransparentViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +533,7 @@
 				C3628C881D13537D004262B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3628C891D13537D004262B1 /* Build configuration list for PBXNativeTarget "TransparentViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +542,7 @@
 				C3628C8B1D13537D004262B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

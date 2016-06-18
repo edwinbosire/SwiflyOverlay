@@ -8,18 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, MenuViewDelegate {
+    
+    lazy var menuViewController: MenuViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("menu") as! MenuViewController
+    var overlay: OverlayView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func presentOverlay(sender: AnyObject) {
+        
+        menuViewController.delegate = self
+        
+        if overlay == nil {
+            overlay = OverlayView()
+        }
+        
+        overlay?.addSubview(menuViewController.view)
+        overlay?.open()
     }
-
-
+    
+    func didSelect(menu: Menu, row: NSIndexPath, inTableView: UITableView) {
+        // Reload view based on menu
+        self.title = menu.title;
+        overlay?.dismissView()
+    }
 }
 
