@@ -53,7 +53,10 @@ The animations implemented are quite simple, we animate both the `opacity` and `
 
 The other animations on are menu based, and can be implemented in your custom menuViewController. Take a look at the demo project for more.
 
+![Landing image of the app][demo2]
 ![Demo image of the implementation][demo]
+
+*I'll update this with a gif soon to show off some sweet animations.*
 
 ##Contribution
 
@@ -89,4 +92,6 @@ SOFTWARE.
 
 
 
-[demo]: https://github.com/edwinbosire/SwiflyOverlay/blob/master/demo.png "Demo image"
+[demo]: https://github.com/edwinbosire/SwiflyOverlay/blob/master/demo-menu.png "Demo image"
+[demo2]: https://github.com/edwinbosire/SwiflyOverlay/blob/master/demo-landing.png "Landin image"
+
