@@ -4,6 +4,11 @@ I've been working on a side project that requires a full screen menu to be prese
 
 Enjoy :) 
 
+![Landing image of the app][demo2]
+![Demo image of the implementation][demo]
+
+*I'll update this with a gif soon to show off some sweet animations.*
+
 ##Implimentation
 
 You will need to create your own menu view, take a look at the `MenuViewController` in the demo. It's a table based menu view.
@@ -52,11 +57,6 @@ The animations implemented are quite simple, we animate both the `opacity` and `
 ```
 
 The other animations on are menu based, and can be implemented in your custom menuViewController. Take a look at the demo project for more.
-
-![Landing image of the app][demo2]
-![Demo image of the implementation][demo]
-
-*I'll update this with a gif soon to show off some sweet animations.*
 
 ##Contribution
 
