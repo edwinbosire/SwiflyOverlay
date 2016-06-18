@@ -18,15 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hlj-mT-Zzn">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wxD-QQ-lMd">
-                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEQ-yQ-yA6">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0co-J6-AaA">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </view>
                                             <vibrancyEffect>
@@ -42,16 +42,6 @@
                                         <constraint firstItem="bEQ-yQ-yA6" firstAttribute="leading" secondItem="wxD-QQ-lMd" secondAttribute="leading" id="u9p-k5-Hbb"/>
                                         <constraint firstAttribute="trailing" secondItem="bEQ-yQ-yA6" secondAttribute="trailing" id="zkc-17-oyU"/>
                                     </constraints>
-                                    <variation key="default">
-                                        <mask key="constraints">
-                                            <exclude reference="Eo7-mF-IWS"/>
-                                            <exclude reference="Jgu-bO-UhA"/>
-                                            <exclude reference="oc7-H6-cNY"/>
-                                            <exclude reference="tuJ-l8-ukh"/>
-                                            <exclude reference="u9p-k5-Hbb"/>
-                                            <exclude reference="zkc-17-oyU"/>
-                                        </mask>
-                                    </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
                                         <mask key="constraints">
                                             <include reference="Eo7-mF-IWS"/>
@@ -78,18 +68,12 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RxZ-eg-c53">
-                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                                    <rect key="frame" x="180" y="40" width="240" height="4"/>
                                                     <color key="backgroundColor" red="0.074509803920000006" green="0.070588235289999995" blue="0.1176470588" alpha="0.5" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="4" id="Kzo-77-ED3"/>
                                                         <constraint firstAttribute="width" constant="240" id="R2e-Ux-FAU"/>
                                                     </constraints>
-                                                    <variation key="default">
-                                                        <mask key="constraints">
-                                                            <exclude reference="Kzo-77-ED3"/>
-                                                            <exclude reference="R2e-Ux-FAU"/>
-                                                        </mask>
-                                                    </variation>
                                                     <variation key="heightClass=regular-widthClass=compact">
                                                         <mask key="constraints">
                                                             <include reference="Kzo-77-ED3"/>
@@ -102,15 +86,6 @@
                                                 <constraint firstItem="RxZ-eg-c53" firstAttribute="centerX" secondItem="eXh-hh-7c6" secondAttribute="centerX" id="BLM-6f-5H7"/>
                                                 <constraint firstAttribute="bottom" secondItem="RxZ-eg-c53" secondAttribute="bottom" id="Jnr-C6-L7P"/>
                                             </constraints>
-                                            <variation key="default">
-                                                <mask key="subviews">
-                                                    <exclude reference="RxZ-eg-c53"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <exclude reference="BLM-6f-5H7"/>
-                                                    <exclude reference="Jnr-C6-L7P"/>
-                                                </mask>
-                                            </variation>
                                             <variation key="heightClass=regular-widthClass=compact">
                                                 <mask key="subviews">
                                                     <include reference="RxZ-eg-c53"/>
@@ -148,30 +123,17 @@
                             <constraint firstItem="Hlj-mT-Zzn" firstAttribute="leading" secondItem="SeS-j1-zor" secondAttribute="leading" id="zh4-Q4-0NR"/>
                             <constraint firstItem="0YS-IF-f3L" firstAttribute="top" secondItem="6DM-Sq-1sQ" secondAttribute="bottom" id="ztY-Tp-EYk"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Hlj-mT-Zzn"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="WBy-wu-2xe"/>
-                                <exclude reference="ZiI-UK-x7A"/>
-                                <exclude reference="bH7-XT-GVK"/>
-                                <exclude reference="u2H-1e-bxZ"/>
-                                <exclude reference="zh4-Q4-0NR"/>
-                                <exclude reference="4vN-VI-4KA"/>
-                            </mask>
-                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Hlj-mT-Zzn"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="4vN-VI-4KA"/>
                                 <include reference="WBy-wu-2xe"/>
                                 <include reference="ZiI-UK-x7A"/>
                                 <include reference="bH7-XT-GVK"/>
                                 <include reference="u2H-1e-bxZ"/>
                                 <include reference="zh4-Q4-0NR"/>
-                                <include reference="4vN-VI-4KA"/>
                             </mask>
                         </variation>
                     </view>
