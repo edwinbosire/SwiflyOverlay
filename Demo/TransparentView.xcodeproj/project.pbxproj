@@ -56,7 +56,7 @@
 		C3628C7A1D13537D004262B1 /* TransparentViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3628C7E1D13537D004262B1 /* TransparentViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentViewUITests.swift; sourceTree = "<group>"; };
 		C3628C801D13537D004262B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3628C921D1353EA004262B1 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = ../Overlay/OverlayView.swift; sourceTree = "<group>"; };
+		C3628C921D1353EA004262B1 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayView.swift; path = ../../Overlay/OverlayView.swift; sourceTree = "<group>"; };
 		C3628C9A1D136BA2004262B1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C3628CA01D13906C004262B1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
