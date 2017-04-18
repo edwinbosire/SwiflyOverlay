@@ -9,7 +9,7 @@ Enjoy :)
 
 *I'll update this with a gif soon to show off some sweet animations.*
 
-##Implimentation
+## Implimentation
 
 You will need to create your own menu view, take a look at the `MenuViewController` in the demo. It's a table based menu view.
 
@@ -58,7 +58,7 @@ The animations implemented are quite simple, we animate both the `opacity` and `
 
 The other animations on are menu based, and can be implemented in your custom menuViewController. Take a look at the demo project for more.
 
-##Contribution
+## Contribution
 
 Solo project at the moment, but if you want to contribute and make it better, please make a pull request.
 
@@ -66,7 +66,7 @@ Solo project at the moment, but if you want to contribute and make it better, pl
 
 Thanks for taking an interest in my work, you can find me on twitter [@edwinbosire](www.twitter.com/edwinbosire)
 
-##Licence 
+## Licence 
 
 The MIT License (MIT)
 
